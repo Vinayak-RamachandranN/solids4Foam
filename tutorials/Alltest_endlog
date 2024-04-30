@@ -1,0 +1,47 @@
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+| solids4Foam::convertCaseFormat start                                |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Changing symmetryPlane to symmetry in blockMeshDict
+
+Changing symmetryPlane to symmetry in ./0/D
+
+Moving constant/polyMesh/blockMeshDict to system
+Replacing system/functions with system/functions.openfoam
+OpenFOAM.com specific: replacing 'leastSquares' with 'pointCellsLeastSquares' in system/fvSchemes
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+| solids4Foam::convertCaseFormat end                                  |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Running blockMesh on /home/viramach/OpenFOAM/solids4foam/tutorialsTest/solids/viscoelasticity/viscoTube
+Running solids4Foam on /home/viramach/OpenFOAM/solids4foam/tutorialsTest/solids/viscoelasticity/viscoTube
+
+Preparing testLoopReport
+grep: 3dTube: Is a directory
+grep: 3dTube: Is a directory
+grep: 3dTube: Is a directory
+grep: flexibleOversetCylinder: Is a directory
+grep: flexibleOversetCylinder: Is a directory
+grep: flexibleOversetCylinder: Is a directory
+
+Preparing logs
+
+Summary statistics
+    Number of cases where a run was attempted: 52
+    Number of cases where the solver failed: 0
+    Number of cases where another command failed: 0
+
+All tests passed: enjoy solids4foam.
+
