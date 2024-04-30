@@ -253,10 +253,10 @@ bool thermalSolid::evolve()
         // Update gradient of temperature
         gradT_ = fvc::grad(T_);
 
-        // Hack to avoid expensive copy of residuals
-#ifdef OPENFOAM_COM
-        const_cast<dictionary&>(mesh().solverPerformanceDict()).clear();
-#endif
+//        // Hack to avoid expensive copy of residuals
+//#ifdef OPENFOAM_COM
+//        const_cast<dictionary&>(mesh().solverPerformanceDict()).clear();
+//#endif
     }
     while
     (
